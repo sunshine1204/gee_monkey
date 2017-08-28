@@ -14,7 +14,7 @@
 function runTaskList(){
 	var tasklist = document.getElementsByClassName('task local type-EXPORT_IMAGE awaiting-user-config');
 	for (var i = 0; i < tasklist.length; i++)
-    	tasklist[i].click();
+		tasklist[i].click();
 }
 // confirmAll();
 function confirmAll() {
