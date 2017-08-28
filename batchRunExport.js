@@ -9,7 +9,7 @@
  * 
  * @Author: 
  * 	Dongdong Kong , 28 Aug' 2017 
- *  kongdd@live.cn, Sun Yat-sen University
+ *  	kongdd@live.cn, Sun Yat-sen University
  */
 function runTaskList(){
 	var tasklist = document.getElementsByClassName('task local type-EXPORT_IMAGE awaiting-user-config');
