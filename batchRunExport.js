@@ -12,9 +12,9 @@
  *  	kongdd@live.cn, Sun Yat-sen University
  */
 function runTaskList(){
-	var tasklist = document.getElementsByClassName('task local type-EXPORT_IMAGE awaiting-user-config');
-	for (var i = 0; i < tasklist.length; i++)
-		tasklist[i].click();
+    var tasklist = document.getElementsByClassName('task local type-EXPORT_IMAGE awaiting-user-config');
+    for (var i = 0; i < tasklist.length; i++)
+        tasklist[i].children[2].click();
 }
 // confirmAll();
 function confirmAll() {
