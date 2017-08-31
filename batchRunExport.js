@@ -8,11 +8,13 @@
  * (Firefox and Chrome are supported. Other Browsers I didn't test.)
  * 
  * @Author: 
- * 	Dongdong Kong , 28 Aug' 2017 
- *  	kongdd@live.cn, Sun Yat-sen University
+ * Dongdong Kong, 28 Aug'2017 
+ * Sun Yat-sen University
  */
-function runTaskList(){
-    var tasklist = document.getElementsByClassName('task local type-EXPORT_IMAGE awaiting-user-config');
+function runTaskList() {
+    //1. task local type-EXPORT_FEATURES awaiting-user-config
+    //2. task local type-EXPORT_IMAGE awaiting-user-config
+    var tasklist = document.getElementsByClassName('awaiting-user-config');
     for (var i = 0; i < tasklist.length; i++)
         tasklist[i].children[2].click();
 }
