@@ -93,11 +93,11 @@
         var $Cancel_all = $('<a id="Cancel_all" style="cursor:pointer;text-decoration:none;padding:0 5px;border:1px solid;">Cancel All</a>');
 
         $Run_all.click(function() {
-            alert('Run_all 2');
+            //alert('Run_all 2');
             runTaskList_wait();
         });
         $Cancel_all.click(function() {
-            alert('Cancel_all');
+            //alert('Cancel_all');
             cancel_all();
         });
 
