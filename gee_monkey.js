@@ -78,7 +78,7 @@
     function cancel_all() {
         // task local type-EXPORT_IMAGE submitted-to-backend
         // task remote submitted-to-backend
-        var tasklist = document.getElementsByClassName('task submitted-to-backend');
+        var tasklist = document.getElementsByClassName('task running-on-backend');
         for (var i = 0; i < tasklist.length; i++) {
             tasklist[i].children[3].click(); //indicator
             confirm_all();
