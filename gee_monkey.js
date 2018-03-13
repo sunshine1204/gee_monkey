@@ -6,6 +6,8 @@
 // @author       Dongdong Kong
 // @match        https://code.earthengine.google.com/
 // @grant        none
+// @updateURL    https://raw.githubusercontent.com/kongdd/GEE_Tools/master/gee_monkey.js
+// @downloadURL  https://raw.githubusercontent.com/kongdd/GEE_Tools/master/gee_monkey.js
 // @require      http://code.jquery.com/jquery-1.12.4.min.js
 // ==/UserScript==
 (function() {
