@@ -83,6 +83,11 @@
             tasklist[i].children[3].click(); //indicator
             confirm_all();
         }
+        tasklist = document.getElementsByClassName('task submitted-to-backend');
+        for (var i = 0; i < tasklist.length; i++) {
+            tasklist[i].children[3].click(); //indicator
+            confirm_all();
+        }
     }
 
     $(document).ready(function() {
