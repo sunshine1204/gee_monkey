@@ -4,7 +4,7 @@
 // @version      0.1
 // @description  try to take over the world!
 // @author       Dongdong Kong
-// @match        https://code.earthengine.google.com/
+// @match        https://code.earthengine.google.com/*
 // @grant        none
 // @updateURL    https://raw.githubusercontent.com/kongdd/GEE_Tools/master/gee_monkey.js
 // @downloadURL  https://raw.githubusercontent.com/kongdd/GEE_Tools/master/gee_monkey.js
