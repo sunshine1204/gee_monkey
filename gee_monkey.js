@@ -92,7 +92,7 @@
         }
     }
     function cancel_submitted(){
-        tasklist = document.getElementsByClassName('task submitted-to-backend');
+        var tasklist = document.getElementsByClassName('task submitted-to-backend');
         for (var i = 0; i < tasklist.length; i++) {
             tasklist[i].children[3].click(); //indicator
             confirm_all();
@@ -105,7 +105,7 @@
         //         var x = $('div.task:first')
         var $Run_all = $('<a id="run_all" style="cursor:pointer;text-decoration:none;padding:0 5px;border:1px solid;">Run All</a>');
         var $Cancel_all = $('<a id="Cancel_all" style="cursor:pointer;text-decoration:none;padding:0 5px;border:1px solid;">Cancel All</a>');
-        var $Cancel_submitted = $('<a id="Cancel_all" style="cursor:pointer;text-decoration:none;padding:0 5px;border:1px solid;">Cancel submitted</a>');
+        var $Cancel_submitted = $('<a id="Cancel_all" style="cursor:pointer;text-decoration:none;padding:0 5px;border:1px solid;">Cancel subm</a>');
 
         $Run_all.click(function() {
             //alert('Run_all 2');
