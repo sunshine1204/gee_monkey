@@ -91,6 +91,13 @@
             confirm_all();
         }
     }
+    function cancel_submitted(){
+        tasklist = document.getElementsByClassName('task submitted-to-backend');
+        for (var i = 0; i < tasklist.length; i++) {
+            tasklist[i].children[3].click(); //indicator
+            confirm_all();
+        }
+    }
 
     $(document).ready(function() {
         // alert('hello world!');
@@ -98,16 +105,20 @@
         //         var x = $('div.task:first')
         var $Run_all = $('<a id="run_all" style="cursor:pointer;text-decoration:none;padding:0 5px;border:1px solid;">Run All</a>');
         var $Cancel_all = $('<a id="Cancel_all" style="cursor:pointer;text-decoration:none;padding:0 5px;border:1px solid;">Cancel All</a>');
+        var $Cancel_submitted = $('<a id="Cancel_all" style="cursor:pointer;text-decoration:none;padding:0 5px;border:1px solid;">Cancel submitted</a>');
 
         $Run_all.click(function() {
             //alert('Run_all 2');
             runTaskList_wait();
         });
         $Cancel_all.click(function() {
-            //alert('Cancel_all');
             cancel_all();
         });
+        $Cancel_submitted.click(function() {
+            cancel_submitted();
+        });
 
+        x.after($Cancel_submitted);
         x.after($Cancel_all);
         x.after($Run_all);
     });
