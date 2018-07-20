@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         gee_monkey
 // @namespace    http://tampermonkey.net/
-// @version      0.1.1
+// @version      0.1.2
 // @description  Batch export Google Earth Engine task
 // @author       Dongdong Kong, Sun Yat-sen Univ
 // @match        https://code.earthengine.google.com/*
