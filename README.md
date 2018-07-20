@@ -6,20 +6,16 @@ Batch export Google Earth Engine (GEE) tasks with `Tampermonkey`.
 + Tired of translate `JavaScript` into `python`, because of `JavaScript` inconvenient batch exporting? 
 + Tired of paste JavaScript into console?  
 
-Tampermonkey can solve those problems.
-
-
-Tasks submitted to GEE have two kinds:  
-
-- `task submitted-to-backend`: just submitted and wait in the queue
-- `task running-on-backend`: submitted and running now
-
+__Tampermonkey can solve those problems!__
 
 ## Functions
 - **rALL** : batch run all tasks
 - **cALL** : cancel all tasks
-- **cSUN** : only cancel submitted-to-backend tasks, and leave running-on-backend tasks to be continue
+- **cSUN** : only cancel `submitted-to-backend` tasks, and leave `running-on-backend` tasks to be continue
 
+**Tasks submitted to GEE have two kinds:**   
+1. `task submitted-to-backend`: just submitted and waiting in the queue  
+2. `task running-on-backend`: submitted and running now
 
 ## Installation
 
