@@ -11,7 +11,7 @@ __Tampermonkey can solve those problems!__
 ## Functions
 - **rALL** : batch run all tasks
 - **cALL** : cancel all tasks
-- **cSUN** : only cancel `submitted-to-backend` tasks, and leave `running-on-backend` tasks to be continue
+- **cSUB** : only cancel `submitted-to-backend` tasks, and leave `running-on-backend` tasks to be continue
 
 **Tasks submitted to GEE have two kinds:**   
 1. `task submitted-to-backend`: just submitted and waiting in the queue  
