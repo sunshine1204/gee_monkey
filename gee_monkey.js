@@ -3,11 +3,11 @@
 // @namespace    http://tampermonkey.net/
 // @version      0.1.1
 // @description  Batch export Google Earth Engine task
-// @author       Dongdong Kong
+// @author       Dongdong Kong, Sun Yat-sen Univ
 // @match        https://code.earthengine.google.com/*
 // @grant        none
-// @updateURL    https://raw.githubusercontent.com/kongdd/GEE_Tools/master/gee_monkey.js
-// @downloadURL  https://raw.githubusercontent.com/kongdd/GEE_Tools/master/gee_monkey.js
+// @updateURL    https://raw.githubusercontent.com/kongdd/gee_monkey/master/gee_monkey.js
+// @downloadURL  https://raw.githubusercontent.com/kongdd/gee_monkey/master/gee_monkey.js
 // @require      http://code.jquery.com/jquery-1.12.4.min.js
 // ==/UserScript==
 'use strict';
