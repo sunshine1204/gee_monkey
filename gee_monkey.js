@@ -5,6 +5,7 @@
 // @description  Batch export Google Earth Engine task
 // @author       Dongdong Kong, Sun Yat-sen Univ
 // @match        https://code.earthengine.google.com/*
+// @exclude      https://code.earthengine.google.com/dataset*
 // @grant        none
 // @updateURL    https://raw.githubusercontent.com/kongdd/gee_monkey/master/gee_monkey.js
 // @downloadURL  https://raw.githubusercontent.com/kongdd/gee_monkey/master/gee_monkey.js
