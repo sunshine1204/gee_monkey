@@ -15,7 +15,7 @@ __Tampermonkey can solve those problems!__
 
 **Tasks submitted to GEE have two kinds:**   
 1. `task submitted-to-backend`: just submitted and waiting in the queue  
-2. `task running-on-backend`: submitted and running now
+2. `task running-on-backend`: submitted and running now (in skyblue backgroud)
 
 ![](image/gee_monkey01.png)
 
@@ -30,4 +30,4 @@ You also can submit tasks by your phone with `firefox` and `Tampermonkey`.
 ## Updates  
 
 * 2018-07-20   
-  1. `running-on-backend` task' background is set to skyblue to distinguish `submitted-to-backend` task.
+  1. `running-on-backend` task's background is set to skyblue to distinguish `submitted-to-backend` task.
