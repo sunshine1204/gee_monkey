@@ -17,9 +17,12 @@ __Tampermonkey can solve those problems!__
 1. `task submitted-to-backend`: just submitted and waiting in the queue  
 2. `task running-on-backend`: submitted and running now
 
+![](image/gee_monkey01.png)
+
 ## Installation
 
-You need `chrome` and [Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo) (firefox is also OK).
+You need `chrome` and [Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo) (`firefox` is also OK).  
+You also can submit tasks by your phone with `firefox` and `Tampermonkey`.
 
 + 1 Install [Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo) extension in `chrome` or `firefox`.
 + 2 Dashboard → New script → paste the script in [gee_monkey](https://github.com/kongdd/GEE_Tools/blob/master/gee_monkey.js) → F5 refresh GEE website.
