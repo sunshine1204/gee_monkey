@@ -19,6 +19,13 @@ __Tampermonkey can solve those problems!__
 
 ![](image/gee_monkey01.png)
 
+
+## Updates  
+
+* 2018-07-20   
+  1. `running-on-backend` task's background is set to skyblue to distinguish `submitted-to-backend` task.
+
+
 ## Installation
 
 You need `chrome` and [Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo) (`firefox` is also OK).  
@@ -27,7 +34,4 @@ You also can submit tasks by your phone with `firefox` and `Tampermonkey`.
 + 1 Install [Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo) extension in `chrome` or `firefox`.
 + 2 Dashboard → New script → paste the script in [gee_monkey](https://github.com/kongdd/GEE_Tools/blob/master/gee_monkey.js) → F5 refresh GEE website.
 
-## Updates  
-
-* 2018-07-20   
-  1. `running-on-backend` task's background is set to skyblue to distinguish `submitted-to-backend` task.
+![](image/s2_gee_monkey.gif)
